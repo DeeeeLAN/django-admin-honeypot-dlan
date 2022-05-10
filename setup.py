@@ -8,7 +8,7 @@ except ImportError:
     from distutils.core import setup, find_packages
 
 setup(
-    name='django-admin-honeypot',
+    name='django-admin-honeypot-dlan',
     version=__version__,
     description=__description__,
     long_description=open('./README.rst', 'r').read(),
@@ -32,8 +32,8 @@ setup(
     keywords='django admin honeypot trap',
     maintainer='Derek Payton',
     maintainer_email='derek.payton@gmail.com',
-    url='https://github.com/dmpayton/django-admin-honeypot',
-    download_url='https://github.com/dmpayton/django-admin-honeypot/tarball/v%s' % __version__,
+    url='https://github.com/DeeeeLAN/django-admin-honeypot-dlan',
+    download_url='https://github.com/DeeeeLAN/django-admin-honeypot-dlan/tarball/v%s' % __version__,
     license=__license__,
     include_package_data=True,
     packages=find_packages(),
